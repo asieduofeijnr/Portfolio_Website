@@ -13,3 +13,7 @@ with col2:
                 I strive to deliver excellent results and performance whiles translating my experience, knowledge, skills, and abilities into value wherever I find myself."""
     
     st.info(content)
+
+content2 = """Below you can find some of the apps i have built in Python. Feel free to contact me!"""
+
+st.write(content2)
