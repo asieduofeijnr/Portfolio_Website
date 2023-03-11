@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="centered")
 
 col1, col2 = st.columns(2)
 
@@ -11,13 +11,14 @@ with col1:
 with col2:
     st.title("Solomon Asiedu-Ofei Jnr :wave:")
     content = """Self-directed and driven Project Professional who doubles as a Data Analyst and Python Programmer with a strong passion for making data-driven decisions in the project environment. 
-                I strive to deliver excellent results and performance whiles translating my experience, knowledge, skills, and abilities into value wherever I find myself."""
+                ."""
     
     st.info(content)
 
-content2 = """Below you can find some of the apps i have built in Python. Feel free to contact me!"""
+content2 = """I strive to deliver excellent results and performance whiles translating my experience, knowledge, skills, and abilities into value wherever I find myself.
+                Below you can find some of the apps i have built in Python. Feel free to contact me!"""
 
-st.write(content2)
+st.info(content2)
 
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
